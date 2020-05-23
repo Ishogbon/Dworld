@@ -1,0 +1,6 @@
+
+
+RewriteEngine On
+
+RewriteRule ^articles/([0-9a-zA-Z-]+) index.php?url=$1 [NC,L]
+
